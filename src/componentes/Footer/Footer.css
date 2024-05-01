@@ -16,3 +16,17 @@
     display: inline-block;
     margin-left: 1rem;
 }
+
+/*---media query---*/
+@media (max-width:800px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 0.7rem;
+    }
+    .footer ul{
+        margin-top: 0.7rem;
+    }
+}

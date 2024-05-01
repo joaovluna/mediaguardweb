@@ -1,3 +1,4 @@
+
 .pricing-card {
     border: 0.1rem solid #ddd;
     border-radius: 0.5rem;
@@ -74,3 +75,6 @@
     width: 1.5rem;
     margin-right: 0.5rem;
   }
+
+  /*---media query---*/
+  

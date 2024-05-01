@@ -39,5 +39,57 @@ nav ul li {
     margin-left: 0.7rem;
 }
 .dark-nav {
-    background: #134d19f8
+    background: #134d19f8;
+}
+.menu-icon{
+    display:none;
+
+}
+.login{
+    cursor: pointer;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+nav ul li.active{
+    text-decoration:underline;
+}
+/* ---media query ---*/
+
+@media (max-width: 62.5rem){ /*1000px*/
+    .logo{
+        width: 8.75rem;
+    }
+    .nav ul li{
+        margin: 0.7rem 1rem;
+    }
+}
+
+@media (max-width: 52.5rem) { /*840px*/
+    nav{
+        padding: 1rem 0;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: #134d19;
+        width: 12.5rem;
+        padding-top: 4.5rem;
+        transition: 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 1.5rem 2.5rem;
+    }
+    .menu-icon{
+        display: block;
+        width: 2rem;
+        cursor: pointer;
+    }
+    .hide-mobile-menu{
+        right: -12.5rem;
+    }
 }

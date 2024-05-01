@@ -42,7 +42,7 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
-            <label>Seu e-mail</label>
+            <label>E-mail</label>
             <input type="text" name='email' placeholder='Insira seu e-mail' required/>
             <label>Telefone</label>
             <input type="tel" name='phone' placeholder='Insira seu telefone' required/>
