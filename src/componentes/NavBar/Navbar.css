@@ -45,18 +45,15 @@ nav ul li {
     display:none;
 
 }
-.login{
-    cursor: pointer;
-}
 nav ul li:hover{
     text-decoration: underline;
 }
 nav ul li.active{
-    text-decoration:underline;
+    text-decoration: underline;
 }
 /* ---media query ---*/
 
-@media (max-width: 62.5rem){ /*1000px*/
+@media (max-width: 1000px){ /*1000px*/
     .logo{
         width: 8.75rem;
     }
@@ -65,7 +62,7 @@ nav ul li.active{
     }
 }
 
-@media (max-width: 52.5rem) { /*840px*/
+@media (max-width:840px) { /*840px*/
     nav{
         padding: 1rem 0;
     }
