@@ -30,6 +30,6 @@ const About = () => {
       </div>
     </div>
   )
-}
+}/*"deploy": "gh-pages -d build",*/
 
 export default About
