@@ -51,6 +51,13 @@ nav ul li:hover{
 nav ul li.active{
     text-decoration: underline;
 }
+
+nav ul li button:hover{
+    text-decoration: underline;
+}
+button:active{
+    text-decoration: underline;
+}
 /* ---media query ---*/
 
 @media (max-width: 1000px){ /*1000px*/

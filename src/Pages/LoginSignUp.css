@@ -54,7 +54,8 @@
 
 }
 .loginSignUp-login span{
-    color: green
+    color: green;
+    cursor: pointer;
 }
 .loginSignUp-agree{
     display: inline-flex;

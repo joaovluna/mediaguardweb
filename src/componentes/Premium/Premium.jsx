@@ -4,6 +4,11 @@ import wpp_icon from '../../assets/whatsapp-svgrepo-com.svg'
 import check_icon from '../../assets/icons8-check.svg'
 import { Link, ScrollLink } from 'react-scroll';
 const Premium = () => {
+  const openWhatsApp = () => {
+    const message = encodeURIComponent("Olá, tenho interesse em testar o MediaGuard!");
+    const whatsappUrl = `https://wa.me/+15550076438/?text=${message}`;
+    window.open(whatsappUrl, "_blank");
+  }
   return (
     <div className="premium">
         <div className="pricing-card">
@@ -14,7 +19,7 @@ const Premium = () => {
             <li><img src={check_icon} alt=""/>1 áudio de até 30s diariamente.</li>
             <li><img src={check_icon} alt=""/>Segurança contra deepfakes.</li>
         </ul>
-        <button className='btn'>Teste Grátis <img src={wpp_icon} alt=""/></button>
+        <button className='btn' onClick={openWhatsApp}>Teste Grátis <img src={wpp_icon} alt=""/></button>
         </div>
         <div className="pricing-card">
         <h2> Plano Premium </h2>
