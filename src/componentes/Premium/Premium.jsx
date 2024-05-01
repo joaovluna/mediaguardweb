@@ -26,7 +26,7 @@ const Premium = () => {
         </ul>
         <button className='btn'>Seja Premium</button>
         </div>
-        <div className="pricing-card">
+        <div className="pricing-card enterprise">
         <h2> Plano Enterprise </h2>
         <p className = "p-premium"></p>
         <p>Nossa solução na sua empresa? Entre em contato para conversar com nossos especialistas. </p>
@@ -36,7 +36,7 @@ const Premium = () => {
             <li><img src={check_icon} alt=""/> Amplie a segurança da empresa e colaboradores.</li>
             <li><img src={check_icon} alt=""/> Especialistas de plantão para atendimento personalizado.</li>
         </ul>
-        <button className='btn'><Link to='contact' smooth={true} offset={0} duration={500}>Contate-nos</Link></button>
+        <button className='btn'><Link to='contact' smooth={true} offset={0} duration={500}><strong>Contate-nos</strong></Link></button>
         </div>
 
     </div>
