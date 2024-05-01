@@ -5,7 +5,7 @@ import check_icon from '../../assets/icons8-check.svg'
 import { Link, ScrollLink } from 'react-scroll';
 const Premium = () => {
   const openWhatsApp = () => {
-    const message = encodeURIComponent("Olá, tenho interesse em testar o MediaGuard!");
+    const message = encodeURIComponent("Olá, quero testar o MediaGuard!");
     const whatsappUrl = `https://wa.me/+15550076438/?text=${message}`;
     window.open(whatsappUrl, "_blank");
   }
