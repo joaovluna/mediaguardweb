@@ -1,9 +1,10 @@
 {
+
+  "homepage": "https://joaovluna.github.io/mediaguardweb",
   "name": "mediaguard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://joaovluna.github.io/mediaguardweb",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
