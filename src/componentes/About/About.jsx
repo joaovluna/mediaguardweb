@@ -1,12 +1,18 @@
 import React from 'react'
 import './About.css'
 import mediaguard from '../../assets/mediaguard.png'
+import about_mediaguard from '../../assets/about_mediaguard.png'
 const About = () => {
+  const openWhatsApp = () => {
+    const message = encodeURIComponent("Olá, quero conhecer o MediaGuard!");
+    const whatsappUrl = `https://wa.me/+15550076438/?text=${message}`;
+    window.open(whatsappUrl, "_blank");
+  }
   return (
     <div>
       <div className="about">
         <div className="about-left">
-            <img src={mediaguard} alt="" className="about-img"/>
+            <img src={about_mediaguard} alt="" className="about-img"/>
         </div>
         <div className="about-right">
             <h3>SOBRE MEDIAGUARD</h3>
@@ -23,7 +29,7 @@ const About = () => {
                 por criminosos que estão utilizando <em>IA</em> para fraudar vozes de amigos, familiares, líderes de empresa e governo.
             </p>
             <p>
-            Para usar é bem fácil, basta clicar em Saiba Mais ou Teste Grátis que já te encaminhamos ao
+            Para usar é bem fácil, basta clicar <u><strong><span onClick={openWhatsApp}>aqui</span></strong></u> que já te encaminhamos ao
              nosso <strong>MediaGuard</strong>, seu futuro segurança contra <em>deepfakes</em>.
             </p>
         </div>

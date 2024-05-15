@@ -32,6 +32,11 @@
     color:#192c1a;
     margin-bottom: 1rem;
 }
+.about span {
+    color: green;
+    cursor: pointer;
+    
+}
 /*---media query---*/
 @media(max-width: 800px) {
     .about{
