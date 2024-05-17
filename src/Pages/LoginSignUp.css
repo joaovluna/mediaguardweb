@@ -66,31 +66,18 @@
     color: #5c5c5c;
     font-weight: 500;
 }
-
-@media(max-width: 1600px){
-    .loginSignUp {
-        height: 100vh;
-    }
-    .loginSignUp-container {
-        width: 50rem;
-        height: 47rem;
-        padding: 2.5rem 3.75rem;
-        
-    }
-    .loginSignUp-container h1{
-        margin: 0rem;
-    }
-    .loginSignUp-fields{
-        gap: 0.75rem;
-        margin-top: 1rem;
+@media(max-width: 1920px) {
     
-    }
+}
+@media(max-width: 1600px){
+    
 }
 
+@media(max-width: 1680px) {
+    
+}
 @media(max-width: 1440px){
-    .loginSignUp {
-        height: 100vh;
-    }
+    
     .loginSignUp-container {
         width: 50rem;
         height: 47rem;
