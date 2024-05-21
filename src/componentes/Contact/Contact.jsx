@@ -37,7 +37,7 @@ const Contact = () => {
         Seus comentários, dúvidas e sugestões são importantes para nós, estamos nos esforçando diariamente para oferecer um serviço excepcional 
         aos nossos usuários.
         <ul>
-        <li><small><strong>contato@mediaguard.com</strong></small></li>
+       
       </ul>
       </div>
       <div className="contact-col">
